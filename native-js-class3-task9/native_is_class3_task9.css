@@ -1,0 +1,33 @@
+.container{
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    font-family: 微软雅黑;
+}
+.container>div:nth-child(1){
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+}
+.container>div:nth-child(2){
+    height: 60px;
+    width: 270px;
+    margin: 0 auto;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 60px;
+    background-color: #75b86b;
+    font-size: 18px;
+
+}
+.container>div:nth-child(2):hover{
+    cursor: pointer;
+}
+span{
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    margin-right: 5px;
+}
